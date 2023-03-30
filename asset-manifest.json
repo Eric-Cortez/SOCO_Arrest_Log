@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/SOCO_Arrest_Log/static/css/main.073c9b0a.css",
+    "main.js": "/SOCO_Arrest_Log/static/js/main.ee4afa06.js",
+    "static/js/787.41889fd1.chunk.js": "/SOCO_Arrest_Log/static/js/787.41889fd1.chunk.js",
+    "static/media/logo.svg": "/SOCO_Arrest_Log/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/SOCO_Arrest_Log/index.html",
+    "main.073c9b0a.css.map": "/SOCO_Arrest_Log/static/css/main.073c9b0a.css.map",
+    "main.ee4afa06.js.map": "/SOCO_Arrest_Log/static/js/main.ee4afa06.js.map",
+    "787.41889fd1.chunk.js.map": "/SOCO_Arrest_Log/static/js/787.41889fd1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.ee4afa06.js"
+  ]
+}
