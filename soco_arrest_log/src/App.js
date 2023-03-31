@@ -20,13 +20,13 @@ function App() {
   return (
     <div className="App">
       <h2>SOCO Arrest Log Visualization</h2>
-      {arrestData && (
+      {arrestData ? (
         <table className="table">
           <thead>
             <tr>
-              {arrestData.length && Object.keys(arrestData[0]).map(columnName => (
+              {arrestData.length ? Object.keys(arrestData[0]).map(columnName => (
                 <th key={columnName}>{columnName}</th>
-              ))}
+              )) : (<div>Loading...</div>)}
             </tr>
           </thead>
           <tbody>
@@ -39,7 +39,7 @@ function App() {
             ))} */}
           </tbody>
         </table>
-      )}
+      ) : <div>Loading...</div>}
     </div>
   );
 }
