@@ -1,6 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "SOCO_Logs",
+  "name": "SOCO_Arrest_Log",
+  "description": "Sonoma County Arrest Log Visualization for Data Analysis",
   "icons": [
     {
       "src": "favicon.ico",
@@ -8,14 +9,9 @@
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "logo256.png",
       "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "256x256"
     }
   ],
   "start_url": ".",
