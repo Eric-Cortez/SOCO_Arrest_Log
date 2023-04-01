@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/SOCO_Arrest_Log/static/css/main.3d2f3103.css",
-    "main.js": "/SOCO_Arrest_Log/static/js/main.80b7b97a.js",
-    "static/js/787.41889fd1.chunk.js": "/SOCO_Arrest_Log/static/js/787.41889fd1.chunk.js",
-    "index.html": "/SOCO_Arrest_Log/index.html",
-    "main.3d2f3103.css.map": "/SOCO_Arrest_Log/static/css/main.3d2f3103.css.map",
-    "main.80b7b97a.js.map": "/SOCO_Arrest_Log/static/js/main.80b7b97a.js.map",
-    "787.41889fd1.chunk.js.map": "/SOCO_Arrest_Log/static/js/787.41889fd1.chunk.js.map"
+    "main.css": "/SOCO_Transparency_Dashboard/static/css/main.3d2f3103.css",
+    "main.js": "/SOCO_Transparency_Dashboard/static/js/main.a3d64a8d.js",
+    "static/js/787.7e96fd33.chunk.js": "/SOCO_Transparency_Dashboard/static/js/787.7e96fd33.chunk.js",
+    "index.html": "/SOCO_Transparency_Dashboard/index.html",
+    "main.3d2f3103.css.map": "/SOCO_Transparency_Dashboard/static/css/main.3d2f3103.css.map",
+    "main.a3d64a8d.js.map": "/SOCO_Transparency_Dashboard/static/js/main.a3d64a8d.js.map",
+    "787.7e96fd33.chunk.js.map": "/SOCO_Transparency_Dashboard/static/js/787.7e96fd33.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3d2f3103.css",
-    "static/js/main.80b7b97a.js"
+    "static/js/main.a3d64a8d.js"
   ]
 }
