@@ -1,6 +1,6 @@
 {
-  "short_name": "SOCO_Logs",
-  "name": "SOCO_Arrest_Log",
+  "short_name": "SOCO_Dashboard",
+  "name": "SOCO_Transparency_Dashboard",
   "description": "Sonoma County Arrest Log Visualization for Data Analysis",
   "icons": [
     {
