@@ -8,9 +8,9 @@ import NoPage from "./pages/NoPage";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/SOCO_Transparency_Dashboard">
       <Routes>
-        <Route path="/SOCO_Transparency_Dashboard" element={<Layout />}>
+        <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="*" element={<NoPage />} />

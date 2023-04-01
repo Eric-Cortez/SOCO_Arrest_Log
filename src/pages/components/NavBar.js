@@ -8,10 +8,10 @@ export default function NavBar() {
         <h2>SOCO Transparency Dashboard</h2>
         <ul>
           <li>
-            <Link to="/SOCO_Transparency_Dashboard/">Arrests</Link>
+            <Link to="/">Arrests</Link>
           </li>
           <li>
-            <Link to="/SOCO_Transparency_Dashboard/about">About</Link>
+            <Link to="about">About</Link>
           </li>
         </ul>
       </nav>
