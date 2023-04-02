@@ -16,7 +16,7 @@ To get started with the project, follow these steps:
 2. Navigate to the project directory: `cd SOCO_Transparency_Dashboard`
 3. Install dependencies: `npm install`
 4. Start the development server: `npm start`
-6. Navigate to `http://localhost:3000` in your web browser.
+5. Navigate to `http://localhost:3000` in your web browser.
 
 ## Usage
 
@@ -29,13 +29,9 @@ The project uses the Sonoma County Sheriff's Office Arrest Data provided by the 
 - [API documentation](https://dev.socrata.com/foundry/data.sonomacounty.ca.gov/f6uf-eqmk)
 - [API endpoint](https://data.sonomacounty.ca.gov/Public-Safety/Sonoma-County-Sheriff-s-Office-Arrest-Data/f6uf-eqmk)
 
-
 ## Live App
 
-You can find a live version of the project at the following URL:  [SOCO Transparency Dashboard](http://ericcortez.me/SOCO_Transparency_Dashboard/)
-
-
-
+You can find a live version of the project at the following URL: [SOCO Transparency Dashboard](http://ericcortez.me/SOCO_Transparency_Dashboard/)
 
 ## License
 

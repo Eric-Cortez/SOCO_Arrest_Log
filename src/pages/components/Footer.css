@@ -7,16 +7,15 @@
   font-family: Arial, sans-serif;
 }
 
-
 .footer a {
-    color: #6d6c6c;
-    text-decoration: none;
+  color: #6d6c6c;
+  text-decoration: none;
 }
 
 .footer a:hover {
-    color: #000;
+  color: #000;
 }
 
 .footer ul {
-    list-style: none;
+  list-style: none;
 }

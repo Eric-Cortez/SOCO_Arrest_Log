@@ -22,7 +22,7 @@ function App() {
           <NoPage />
         </Route>
       </Switch>
-      <Footer/>
+      <Footer />
     </BrowserRouter>
   );
 }
