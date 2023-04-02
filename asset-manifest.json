@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/SOCO_Transparency_Dashboard/static/css/main.3d2f3103.css",
-    "main.js": "/SOCO_Transparency_Dashboard/static/js/main.404329e5.js",
+    "main.js": "/SOCO_Transparency_Dashboard/static/js/main.72ff3fcb.js",
     "static/js/787.7e96fd33.chunk.js": "/SOCO_Transparency_Dashboard/static/js/787.7e96fd33.chunk.js",
     "index.html": "/SOCO_Transparency_Dashboard/index.html",
     "main.3d2f3103.css.map": "/SOCO_Transparency_Dashboard/static/css/main.3d2f3103.css.map",
-    "main.404329e5.js.map": "/SOCO_Transparency_Dashboard/static/js/main.404329e5.js.map",
+    "main.72ff3fcb.js.map": "/SOCO_Transparency_Dashboard/static/js/main.72ff3fcb.js.map",
     "787.7e96fd33.chunk.js.map": "/SOCO_Transparency_Dashboard/static/js/787.7e96fd33.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3d2f3103.css",
-    "static/js/main.404329e5.js"
+    "static/js/main.72ff3fcb.js"
   ]
 }
