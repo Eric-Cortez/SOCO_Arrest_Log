@@ -5,8 +5,8 @@ import "./NavBar.css"
 export default function NavBar() {
   return (
     <>
-      <nav>
-        <h2>SOCO Transparency Dashboard</h2>
+      <nav className="navbar">
+        <h2 id="nav-header">SOCO Transparency Dashboard</h2>
         <ul>
           <li>
             <Link to="/">Arrests</Link>
