@@ -26,6 +26,7 @@ body {
 .page-content {
   flex: 1;
   padding: 1rem;
+  background-color: rgb(249, 249, 249);
 }
 
 /* h2 {

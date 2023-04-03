@@ -5,11 +5,12 @@ import "./Home.css";
 import ArrestDegreePie from "./components/ArrestDegreePie";
 import ArrestCount from "./components/ArrestCount";
 import ArrestGenderPie from "./components/ArrestGenderPie";
+import ArrestLocation from "./components/ArrestLocation";
 
 export default function Home() {
   const [arrestData, setArrestData] = useState([]);
 
-  console.log(arrestData)
+  console.log(arrestData);
   const socoEnpoint =
     "https://data.sonomacounty.ca.gov/resource/f6uf-eqmk.json";
 
@@ -23,21 +24,17 @@ export default function Home() {
     setArrestData(jsonData);
   };
 
-
-
   return (
     <div className="page-content">
       <h2>Arrests Dashboard</h2>
       <div className="dashboard">
         <ArrestCount arrestData={arrestData} />
         <ArrestDegreePie arrestData={arrestData} />
-        <ArrestGenderPie arrestData={arrestData} />
-        <div>4</div>
-        <div>5</div>
-        <div>6</div>
-        <div>7</div>
-        <div>8</div>
-
+        <ArrestGenderPie arrestData={arrestData} /> <div></div>
+        <ArrestLocation arrestData={arrestData} />
+        <div></div>
+        <div></div>
+        <div></div>
       </div>
     </div>
   );

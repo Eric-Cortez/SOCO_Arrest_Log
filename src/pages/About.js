@@ -34,8 +34,14 @@ export default function About() {
         </p>
 
         <p className="description">
-          The project is licensed under the MIT License, and was created by <a target="_blank" href="https://github.com/Eric-Cortez/SOCO_Transparency_Dashboard">
-            Eric Cortez</a>.
+          The project is licensed under the MIT License, and was created by{" "}
+          <a
+            target="_blank"
+            href="https://github.com/Eric-Cortez/SOCO_Transparency_Dashboard"
+          >
+            Eric Cortez
+          </a>
+          .
         </p>
       </div>
     </div>

@@ -1,12 +1,11 @@
-import React from 'react'
+import React from "react";
+import "./ArrestCount.css"; // Import your CSS file
 
-export default function ArrestCount({arrestData}) {
-
-  
+export default function ArrestCount({ arrestData }) {
   return (
-    <div>
-      <h3>Total Arrests </h3>
-      <span>{arrestData.length}</span>
+    <div className="arrest-count-container">
+      <h3>Total Arrests</h3>
+      <span className="arrest-count-number">{arrestData.length}</span>
     </div>
-  )
+  );
 }

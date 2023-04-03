@@ -1,33 +1,37 @@
-import React from 'react'
-import Plot from 'react-plotly.js';
-import { valueCount } from "../../utils/helperFunctions.js"
+import React from "react";
+import Plot from "react-plotly.js";
+import { valueCount } from "../../utils/helperFunctions.js";
 
 export default function ArrestDegreePie({ arrestData }) {
+  const types = valueCount(arrestData, "arrestdegree");
 
-  
-    const types = valueCount(arrestData, "arrestdegree")
+  let data = [
+    {
+      type: "pie",
+      values: types ? Object.values(types) : [],
+      labels: types ? Object.keys(types) : [],
+      text: types ? Object.values(types).map((value) => `${value} items`) : [],
+      textinfo: "label+percent",
+      insidetextorientation: "radial",
+    },
+  ];
 
-
-    let data = [{
-        type: "pie",
-        values: types ? Object.values(types) : [],
-        labels: types ? Object.keys(types) : [],
-        text: types ? Object.values(types).map(value => `${value} items`) : [],
-        textinfo: "label+percent",
-        insidetextorientation: "radial"
-    }];
-
-   const chartStyle = {
+  const chartStyle = {
     height: "100%",
-    width: "100%"
-   }
+    width: "100%",
+  };
 
-    return (
-        <div>
-            <h3>Arrest Degree</h3>
-            {arrestData ?
-                (<Plot data={data} style={chartStyle} />) : (<div>Loading...</div>)}
+  const layout = {
+    title: "Arrest by Degree",
+  };
 
-        </div>
-    )
+  return (
+    <div>
+      {arrestData ? (
+        <Plot data={data} style={chartStyle} layout={layout} />
+      ) : (
+        <div>Loading...</div>
+      )}
+    </div>
+  );
 }
