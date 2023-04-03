@@ -1,23 +1,11 @@
 import React from 'react'
 import Plot from 'react-plotly.js';
+import { valueCount } from "../../utils/helperFunctions.js"
 
 export default function ArrestDegreePie({ arrestData }) {
 
-    function valueCount(arrestData) {
-        let types = {};
-
-        for (let i = 0; i < arrestData.length; i++) {
-            let record = arrestData[i].arrestdegree;
-            if (!types[record]) {
-                types[record] = 1
-            } else {
-                types[record] += 1
-            }
-
-        }
-        return types
-    }
-    const types = valueCount(arrestData)
+  
+    const types = valueCount(arrestData, "arrestdegree")
 
 
     let data = [{

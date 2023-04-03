@@ -3,6 +3,8 @@ import { useEffect, useState } from "react";
 import "./Home.css";
 
 import ArrestDegreePie from "./components/ArrestDegreePie";
+import ArrestCount from "./components/ArrestCount";
+import ArrestGenderPie from "./components/ArrestGenderPie";
 
 export default function Home() {
   const [arrestData, setArrestData] = useState([]);
@@ -21,18 +23,15 @@ export default function Home() {
     setArrestData(jsonData);
   };
 
- 
+
 
   return (
     <div className="page-content">
       <h2>Arrests Dashboard</h2>
       <div className="dashboard">
-        <div>
-          <h3>Total Arrests </h3>
-          <span>{arrestData.length}</span>
-        </div>
-        <ArrestDegreePie arrestData={arrestData}/>
-        <div>3</div>
+        <ArrestCount arrestData={arrestData} />
+        <ArrestDegreePie arrestData={arrestData} />
+        <ArrestGenderPie arrestData={arrestData} />
         <div>4</div>
         <div>5</div>
         <div>6</div>
