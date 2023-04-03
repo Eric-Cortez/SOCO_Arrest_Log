@@ -1,7 +1,3 @@
-#nav-header {
-  font-size: 2em;
-}
-
 .navbar {
   background-color: #f1f1f1;
   color: #333;
@@ -12,7 +8,9 @@
   justify-content: space-between;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
-
+#nav-header {
+  font-size: 2.1em;
+}
 .navbar a {
   text-decoration: none;
   color: black;
@@ -34,14 +32,18 @@
 }
 
 #logo {
-    height: 50px;
-    width: 50px;
-    margin: 16px 0;
+    height: 6%;
+    width: 6%;
+    margin: 0 1% 1% 1%;
 }
 
 .logo-container {
     display: flex;
     flex-direction: row;
     align-items: center;
-   
+}
+
+.active-link {
+  color: #006400;
+  font-weight: bold;
 }

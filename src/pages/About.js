@@ -1,5 +1,6 @@
 import React from "react";
 
+
 export default function About() {
-  return <div>About the Data</div>;
+  return <div className="page-content">About the Data</div>;
 }

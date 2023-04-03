@@ -1,5 +1,6 @@
 import React from "react";
 import { useEffect, useState } from "react";
+import "./Home.css"
 
 export default function Home() {
   const [arrestData, setArrestData] = useState([]);
@@ -16,5 +17,6 @@ export default function Home() {
     setArrestData(jsonData);
   };
   console.log(arrestData);
-  return <div>Arrests Dashboard</div>;
+  return <div className="page-content">Arrests Dashboard
+  </div>;
 }

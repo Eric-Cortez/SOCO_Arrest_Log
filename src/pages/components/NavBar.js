@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "./NavBar.css";
 import logo from '../../images/logo256.png';
 
@@ -14,10 +14,10 @@ export default function NavBar() {
 
         <ul>
           <li>
-            <Link to="/">Arrests</Link>
+            <NavLink to="/" activeClassName="active-link" exact>Arrests</NavLink>
           </li>
           <li>
-            <Link to="/about">About</Link>
+            <NavLink to="/about" activeClassName="active-link" exact>About</NavLink>
           </li>
         </ul>
       </nav>
