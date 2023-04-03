@@ -32,15 +32,15 @@
 }
 
 #logo {
-    height: 6%;
-    width: 6%;
-    margin: 0 1% 1% 1%;
+  height: 6%;
+  width: 6%;
+  margin: 0 1% 1% 1%;
 }
 
 .logo-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .active-link {
