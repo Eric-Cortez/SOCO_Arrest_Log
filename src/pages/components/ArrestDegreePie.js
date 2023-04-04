@@ -26,7 +26,7 @@ export default function ArrestDegreePie({ arrestData }) {
   };
 
   return (
-    <div>
+    <div className="pie-chart">
       {arrestData ? (
         <Plot data={data} style={chartStyle} layout={layout} />
       ) : (

@@ -21,27 +21,20 @@ export default function ArrestLocation({ arrestData }) {
           width: 1.5,
         },
       },
-      //   options: {
-      //       indexAxis: 'y',
-      //       scales: {
-      //           y: {
-      //               ticks: {
-      //                   beginAtZero: true,
-      //                   stepSize: 1,
-      //               }
-      //           }
-      //       }
-      //   },
     },
   ];
 
   const layout = {
     title: "Arrest by Location",
     xaxis: { title: "City" },
-    yaxis: { title: "Number of Arrests" },
+    yaxis: {
+      title: "Number of Arrests",
+      tickmode: "linear",
+      dtick: 1,
+    },
   };
   return (
-    <div>
+    <div className="bar-chart">
       <Plot data={data} layout={layout} />
     </div>
   );

@@ -25,7 +25,7 @@ export default function ArrestGenderPie({ arrestData }) {
     title: "Arrest by Gender",
   };
   return (
-    <div>
+    <div className="pie-chart">
       {arrestData ? (
         <Plot data={data} style={chartStyle} layout={layout} />
       ) : (
