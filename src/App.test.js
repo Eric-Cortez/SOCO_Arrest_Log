@@ -9,4 +9,3 @@ describe("App component", () => {
   //   expect(navBarElement).toBeInTheDocument();
   // });
 });
-

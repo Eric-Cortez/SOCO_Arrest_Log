@@ -37,11 +37,11 @@ h2 {
 }
 
 .dashboard > div.bar-chart {
-  height: 600px;
+  height: 400px;
 }
 
-.dashboard > div.pie-chart > * ,
-.dashboard > div.bar-chart > *  {
+.dashboard > div.pie-chart > *,
+.dashboard > div.bar-chart > * {
   width: 100%;
   height: 100%;
 }

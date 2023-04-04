@@ -6,6 +6,8 @@ import ArrestDegreePie from "./components/ArrestDegreePie";
 import ArrestCount from "./components/ArrestCount";
 import ArrestGenderPie from "./components/ArrestGenderPie";
 import ArrestLocation from "./components/ArrestLocation";
+import ArrestsByAgency from "./components/ArrestByAgency"
+import TopChargedescription from "./components/TopChargedescription"
 
 export default function Home() {
   const [arrestData, setArrestData] = useState([]);
@@ -30,11 +32,10 @@ export default function Home() {
       <div className="dashboard">
         <ArrestCount arrestData={arrestData} />
         <ArrestDegreePie arrestData={arrestData} />
-        <ArrestGenderPie arrestData={arrestData} /> <div></div>
+        <ArrestsByAgency arrestData={arrestData} />
+        <ArrestGenderPie arrestData={arrestData} />
         <ArrestLocation arrestData={arrestData} />
-        <div></div>
-        <div></div>
-        <div></div>
+        <TopChargedescription arrestData={arrestData}/>
       </div>
     </div>
   );
