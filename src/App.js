@@ -5,6 +5,7 @@ import About from "./pages/About";
 import Home from "./pages/Home";
 import NoPage from "./pages/NoPage";
 import NavBar from "./pages/components/NavBar";
+import Footer from "./pages/components/Footer";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <NoPage />
         </Route>
       </Switch>
+      <Footer />
     </BrowserRouter>
   );
 }
