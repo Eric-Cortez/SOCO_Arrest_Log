@@ -38,6 +38,7 @@ export default function About() {
           <a
             target="_blank"
             href="https://github.com/Eric-Cortez/SOCO_Transparency_Dashboard"
+            rel="noreferrer"
           >
             Eric Cortez
           </a>
