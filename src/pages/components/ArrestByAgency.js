@@ -1,5 +1,5 @@
-import React from 'react';
-import Plot from 'react-plotly.js';
+import React from "react";
+import Plot from "react-plotly.js";
 
 function ArrestsByAgency({ arrestData }) {
   const arrestsByAgency = {};
@@ -14,20 +14,20 @@ function ArrestsByAgency({ arrestData }) {
 
   const plotData = [
     {
-      type: 'bar',
-      orientation: 'h',
+      type: "bar",
+      orientation: "h",
       x: agencies.map((agency) => arrestsByAgency[agency]),
       y: agencies,
       marker: {
-        color: 'rgb(0, 153, 255)',
+        color: "rgb(0, 153, 255)",
       },
     },
   ];
 
   const plotLayout = {
-    title: 'Arrests by Agency',
+    title: "Arrests by Agency",
     xaxis: {
-      title: 'Number of Arrests',
+      title: "Number of Arrests",
       automargin: true,
     },
     yaxis: {
