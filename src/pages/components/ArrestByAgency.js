@@ -15,23 +15,27 @@ function ArrestsByAgency({ arrestData }) {
   const plotData = [
     {
       type: "bar",
-      orientation: "h",
-      x: agencies.map((agency) => arrestsByAgency[agency]),
-      y: agencies,
+      // orientation: "h",
+      x: agencies,
+      y: agencies.map((agency) => arrestsByAgency[agency]),
       marker: {
-        color: "rgb(0, 153, 255)",
+        color: "rgb(32,119,180)",
       },
     },
   ];
 
   const plotLayout = {
     title: "Arrests by Agency",
+    responsive: true,
     xaxis: {
-      title: "Number of Arrests",
+      title: "Arresting Agency",
       automargin: true,
     },
     yaxis: {
+      title: "Number of Arrests",
+      tickmode: "linear",
       automargin: true,
+      dtick: 1,
     },
     margin: {
       l: 120,

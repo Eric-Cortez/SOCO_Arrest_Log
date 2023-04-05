@@ -16,3 +16,19 @@
 .container {
   overflow: hidden;
 }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 812px) {
+  /* Styles for mobile devices */
+
+  .about-img {
+    margin: 0;
+    width: auto;
+  }
+  .page-content.wrapper {
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    padding: 20px;
+  }
+}

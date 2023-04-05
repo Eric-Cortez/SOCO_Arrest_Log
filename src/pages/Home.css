@@ -1,14 +1,15 @@
-h2 {
+.pg-header {
   text-align: center;
   color: #333;
   font-size: 2.5rem;
-  margin-bottom: 40px;
 }
 
 .dashboard {
+  padding: 2em;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 1fr;
+  justify-content: c;
   grid-gap: 20px;
 }
 
@@ -44,4 +45,28 @@ h2 {
 .dashboard > div.bar-chart > * {
   width: 100%;
   height: 100%;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .wrapper,
+  .dashboard {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 812px) {
+  /* Styles for mobile devices */
+  .wrapper,
+  .dashboard {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
 }

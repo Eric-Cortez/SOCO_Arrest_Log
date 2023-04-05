@@ -11,8 +11,6 @@ import TopChargedescription from "./components/TopChargedescription";
 
 export default function Home() {
   const [arrestData, setArrestData] = useState([]);
-
-  console.log(arrestData);
   const socoEnpoint =
     "https://data.sonomacounty.ca.gov/resource/f6uf-eqmk.json";
 
@@ -28,12 +26,12 @@ export default function Home() {
 
   return (
     <div className="page-content">
-      <h2>Arrests Dashboard</h2>
+      <h2 className="pg-header">Arrests Dashboard</h2>
       <div className="dashboard">
         <ArrestCount arrestData={arrestData} />
         <ArrestDegreePie arrestData={arrestData} />
-        <ArrestsByAgency arrestData={arrestData} />
         <ArrestGenderPie arrestData={arrestData} />
+        <ArrestsByAgency arrestData={arrestData} />
         <ArrestLocation arrestData={arrestData} />
         <TopChargedescription arrestData={arrestData} />
       </div>

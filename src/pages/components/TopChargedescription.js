@@ -48,7 +48,12 @@ export default function TopChargedescription({ arrestData }) {
       b: 50,
     },
     xaxis: { title: "Number of Arrests" },
-    yaxis: { automargin: true },
+    yaxis: {
+      title: "Charge description",
+      tickmode: "linear",
+      automargin: true,
+      dtick: 1,
+    },
   };
 
   return (
