@@ -23,6 +23,7 @@ export default function ArrestDegreePie({ arrestData }) {
 
   const layout = {
     title: "Arrest by Degree",
+    displayModeBar: false,
   };
 
   return (

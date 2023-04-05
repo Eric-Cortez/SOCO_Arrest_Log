@@ -26,6 +26,7 @@ export default function ArrestLocation({ arrestData }) {
 
   const layout = {
     title: "Arrest by Location",
+    displayModeBar: false,
     xaxis: { title: "City" },
     yaxis: {
       title: "Number of Arrests",
