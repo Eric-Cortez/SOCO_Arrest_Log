@@ -14,11 +14,11 @@ export default function ArrestLocation({ arrestData }) {
       textposition: "auto",
       hoverinfo: "none",
       marker: {
-        color: "rgb(158,202,225)",
+        color: "rgb(32,119,180)",
         opacity: 0.6,
         line: {
           color: "rgb(8,48,107)",
-          width: 1.5,
+          width: 2,
         },
       },
     },
