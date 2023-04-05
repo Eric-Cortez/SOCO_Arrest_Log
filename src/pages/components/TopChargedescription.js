@@ -3,13 +3,15 @@ import Plot from "react-plotly.js";
 
 export default function TopChargedescription({ arrestData }) {
   const [topCharges, setTopCharges] = useState([]);
-  const [chargeCounts, setchargeCounts] = useState([]);
+  const [chargeCounts, setChargeCounts] = useState([]);
 
   useEffect(() => {
     const chargeCounts = {};
     arrestData.forEach((arrest) => {
-      const charges = arrest.chargedescription.split("<br/>");
+     
+      const charges = arrest.chargedescription.split("<br/>").filter(charge => charge !== '----------');
       charges.forEach((charge) => {
+      
         charge = charge.trim().split(";");
 
         if (charge) {
@@ -24,7 +26,7 @@ export default function TopChargedescription({ arrestData }) {
       .slice(0, 10);
 
     setTopCharges(topCharges);
-    setchargeCounts(chargeCounts);
+    setChargeCounts(chargeCounts);
   }, [arrestData]);
 
   if (topCharges.length === 0) {
@@ -39,8 +41,9 @@ export default function TopChargedescription({ arrestData }) {
       orientation: "h",
     },
   ];
-  const plotLayout = {
+  const layout = {
     title: "Arrests by Charge",
+    displayModeBar: false,
     margin: {
       l: 150,
       r: 20,
@@ -60,7 +63,7 @@ export default function TopChargedescription({ arrestData }) {
     <div className="bar-chart">
       <Plot
         data={data}
-        layout={plotLayout}
+        layout={layout}
         config={{ displayModeBar: false }}
       />
     </div>

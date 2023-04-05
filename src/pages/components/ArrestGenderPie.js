@@ -22,6 +22,7 @@ export default function ArrestGenderPie({ arrestData }) {
     width: "100%",
   };
   const layout = {
+    displayModeBar: false,
     title: "Arrest by Gender",
   };
   return (

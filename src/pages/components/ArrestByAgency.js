@@ -24,7 +24,7 @@ function ArrestsByAgency({ arrestData }) {
     },
   ];
 
-  const plotLayout = {
+  const layout = {
     title: "Arrests by Agency",
     responsive: true,
     xaxis: {
@@ -43,11 +43,12 @@ function ArrestsByAgency({ arrestData }) {
       t: 60,
       b: 20,
     },
+    displayModeBar: false,
   };
 
   return (
     <div className="bar-chart">
-      <Plot data={plotData} layout={plotLayout} />
+      <Plot data={plotData} layout={layout} />
     </div>
   );
 }
