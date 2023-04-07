@@ -44,6 +44,9 @@ function ArrestsByAgency({ arrestData }) {
       b: 20,
     },
   };
+  const config = {
+    displayModeBar: false,
+  };
 
   return (
     <div className="bar-chart">
@@ -51,7 +54,7 @@ function ArrestsByAgency({ arrestData }) {
       data={plotData} 
       layout={layout} 
       useResizeHandler={true}
-      config={{ displayModeBar: false }}
+      config={config}
       style={{ width: "100%", height: "100%" }} />
     </div>
   );
