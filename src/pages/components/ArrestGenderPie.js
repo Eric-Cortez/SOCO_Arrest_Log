@@ -22,13 +22,12 @@ export default function ArrestGenderPie({ arrestData }) {
     width: "100%",
   };
   const layout = {
-    displayModeBar: false,
     title: "Arrest by Gender",
   };
   return (
     <div className="pie-chart">
       {arrestData ? (
-        <Plot data={data} style={chartStyle} layout={layout} />
+        <Plot data={data} style={chartStyle} config={{ displayModeBar: false }}  layout={layout} useResizeHandler={true}/>
       ) : (
         <div>Loading...</div>
       )}

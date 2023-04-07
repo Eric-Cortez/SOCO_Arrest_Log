@@ -43,7 +43,6 @@ export default function TopChargedescription({ arrestData }) {
   ];
   const layout = {
     title: "Arrests by Charge",
-    displayModeBar: false,
     margin: {
       l: 150,
       r: 20,
@@ -65,6 +64,7 @@ export default function TopChargedescription({ arrestData }) {
         data={data}
         layout={layout}
         config={{ displayModeBar: false }}
+        useResizeHandler={true}
       />
     </div>
   );

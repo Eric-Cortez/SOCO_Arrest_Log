@@ -26,7 +26,6 @@ export default function ArrestLocation({ arrestData }) {
 
   const layout = {
     title: "Arrest by Location",
-    displayModeBar: false,
     xaxis: { title: "City" },
     yaxis: {
       title: "Number of Arrests",
@@ -36,7 +35,7 @@ export default function ArrestLocation({ arrestData }) {
   };
   return (
     <div className="bar-chart">
-      <Plot data={data} layout={layout} />
+      <Plot data={data} layout={layout} config={{ displayModeBar: false }} useResizeHandler={true}/>
     </div>
   );
 }
