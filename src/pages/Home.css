@@ -9,15 +9,14 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr 1fr;
-  justify-content: c;
-  grid-gap: 20px;
+   justify-content: center;
+   grid-gap: 20px;
 }
 
 .dashboard > div {
   background-color: #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
-  padding: 20px;
 }
 
 .dashboard > div h3 {
@@ -61,12 +60,14 @@
   }
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 812px) {
-  /* Styles for mobile devices */
+
+
+@media only screen and (max-device-width: 768px) {
+  Styles for mobile devices
   .wrapper,
   .dashboard {
     display: flex;
     flex-direction: column;
-    padding: 0;
+
   }
 }

@@ -43,12 +43,19 @@ function ArrestsByAgency({ arrestData }) {
       t: 60,
       b: 20,
     },
+  };
+  const config = {
     displayModeBar: false,
   };
 
   return (
     <div className="bar-chart">
-      <Plot data={plotData} layout={layout} />
+      <Plot 
+      data={plotData} 
+      layout={layout} 
+      useResizeHandler={true}
+      config={config}
+      style={{ width: "100%", height: "100%" }} />
     </div>
   );
 }
