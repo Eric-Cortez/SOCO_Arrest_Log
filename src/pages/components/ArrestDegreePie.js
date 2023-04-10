@@ -28,7 +28,13 @@ export default function ArrestDegreePie({ arrestData }) {
   return (
     <div className="pie-chart">
       {arrestData ? (
-        <Plot data={data} style={chartStyle} layout={layout} config={{ displayModeBar: false }}  useResizeHandler={true} />
+        <Plot
+          data={data}
+          style={chartStyle}
+          layout={layout}
+          config={{ displayModeBar: false }}
+          useResizeHandler={true}
+        />
       ) : (
         <div>Loading...</div>
       )}
