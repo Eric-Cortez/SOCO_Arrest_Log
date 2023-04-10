@@ -8,10 +8,10 @@ export default function TopChargedescription({ arrestData }) {
   useEffect(() => {
     const chargeCounts = {};
     arrestData.forEach((arrest) => {
-     
-      const charges = arrest.chargedescription.split("<br/>").filter(charge => charge !== '----------');
+      const charges = arrest.chargedescription
+        .split("<br/>")
+        .filter((charge) => charge !== "----------");
       charges.forEach((charge) => {
-      
         charge = charge.trim().split(";");
 
         if (charge) {

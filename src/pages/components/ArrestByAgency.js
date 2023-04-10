@@ -50,12 +50,13 @@ function ArrestsByAgency({ arrestData }) {
 
   return (
     <div className="bar-chart">
-      <Plot 
-      data={plotData} 
-      layout={layout} 
-      useResizeHandler={true}
-      config={config}
-      style={{ width: "100%", height: "100%" }} />
+      <Plot
+        data={plotData}
+        layout={layout}
+        useResizeHandler={true}
+        config={config}
+        style={{ width: "100%", height: "100%" }}
+      />
     </div>
   );
 }

@@ -35,7 +35,12 @@ export default function ArrestLocation({ arrestData }) {
   };
   return (
     <div className="bar-chart">
-      <Plot data={data} layout={layout} config={{ displayModeBar: false }} useResizeHandler={true}/>
+      <Plot
+        data={data}
+        layout={layout}
+        config={{ displayModeBar: false }}
+        useResizeHandler={true}
+      />
     </div>
   );
 }
