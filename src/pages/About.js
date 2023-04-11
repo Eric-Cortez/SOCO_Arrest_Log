@@ -6,6 +6,7 @@ export default function About() {
   return (
     <div className="page-content wrapper">
       <img src={image} alt="data analysis" className="about-img" />
+      <br />
       <div className="container">
         <h2>About the Data</h2>
         <p className="description">
