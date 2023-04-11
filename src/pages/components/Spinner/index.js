@@ -1,7 +1,7 @@
 import React from "react";
 import "./Spinner.css";
 
-export default function index() {
+export default function Spinner() {
   return (
     <div className="fallback">
       Loading...
