@@ -1,6 +1,6 @@
 import React from "react";
 import { useEffect, useState } from "react";
-import "./Home.css";
+import "./ArrestDash.css";
 
 import ArrestDegreePie from "../components/ArrestDegreePie";
 import ArrestCount from "../components/ArrestCount";
