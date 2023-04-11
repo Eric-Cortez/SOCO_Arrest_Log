@@ -3,16 +3,16 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import "./App.css";
 import NavBar from "./pages/components/NavBar";
 import Footer from "./pages/components/Footer";
-import Spinner from "./pages/components/Spinner"
+import Spinner from "./pages/components/Spinner";
 
-const ArrestDash = lazy(() => import("./pages/ArrestDash"))
-const About = lazy(() => import("./pages/About"))
-const NoPage = lazy(() => import("./pages/NoPage"))
+const ArrestDash = lazy(() => import("./pages/ArrestDash"));
+const About = lazy(() => import("./pages/About"));
+const NoPage = lazy(() => import("./pages/NoPage"));
 
 function App() {
   return (
     <BrowserRouter basename="/SOCO_Transparency_Dashboard">
-      <Suspense fallback={<Spinner/>}>
+      <Suspense fallback={<Spinner />}>
         <NavBar />
         <Switch>
           <Route exact path="/about">
@@ -26,7 +26,7 @@ function App() {
           </Route>
         </Switch>
         <Footer />
-       </Suspense>
+      </Suspense>
     </BrowserRouter>
   );
 }
