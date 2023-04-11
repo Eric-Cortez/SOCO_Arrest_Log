@@ -1,28 +1,32 @@
 {
   "files": {
-    "main.css": "/SOCO_Transparency_Dashboard/static/css/main.afb6a7fa.css",
-    "main.js": "/SOCO_Transparency_Dashboard/static/js/main.ca3e1122.js",
-    "static/css/341.c705adca.chunk.css": "/SOCO_Transparency_Dashboard/static/css/341.c705adca.chunk.css",
-    "static/js/341.3e153803.chunk.js": "/SOCO_Transparency_Dashboard/static/js/341.3e153803.chunk.js",
-    "static/css/558.55ef0981.chunk.css": "/SOCO_Transparency_Dashboard/static/css/558.55ef0981.chunk.css",
-    "static/js/558.290bc33f.chunk.js": "/SOCO_Transparency_Dashboard/static/js/558.290bc33f.chunk.js",
-    "static/js/595.497b0b35.chunk.js": "/SOCO_Transparency_Dashboard/static/js/595.497b0b35.chunk.js",
+    "main.css": "/SOCO_Transparency_Dashboard/static/css/main.420012d6.css",
+    "main.js": "/SOCO_Transparency_Dashboard/static/js/main.7d6ac7a2.js",
+    "static/js/952.0b4b1ce8.chunk.js": "/SOCO_Transparency_Dashboard/static/js/952.0b4b1ce8.chunk.js",
+    "static/css/376.1edbba01.chunk.css": "/SOCO_Transparency_Dashboard/static/css/376.1edbba01.chunk.css",
+    "static/js/376.ce35e0c6.chunk.js": "/SOCO_Transparency_Dashboard/static/js/376.ce35e0c6.chunk.js",
+    "static/js/720.db0fec80.chunk.js": "/SOCO_Transparency_Dashboard/static/js/720.db0fec80.chunk.js",
+    "static/js/634.415a3ab9.chunk.js": "/SOCO_Transparency_Dashboard/static/js/634.415a3ab9.chunk.js",
+    "static/js/146.899ae51b.chunk.js": "/SOCO_Transparency_Dashboard/static/js/146.899ae51b.chunk.js",
+    "static/js/614.25bf0391.chunk.js": "/SOCO_Transparency_Dashboard/static/js/614.25bf0391.chunk.js",
     "static/js/787.7e96fd33.chunk.js": "/SOCO_Transparency_Dashboard/static/js/787.7e96fd33.chunk.js",
-    "static/js/169.cd20aa4d.chunk.js": "/SOCO_Transparency_Dashboard/static/js/169.cd20aa4d.chunk.js",
+    "static/js/286.1b3d7929.chunk.js": "/SOCO_Transparency_Dashboard/static/js/286.1b3d7929.chunk.js",
     "static/media/banner.png": "/SOCO_Transparency_Dashboard/static/media/banner.5849b1f86e2b3fdace37.png",
     "index.html": "/SOCO_Transparency_Dashboard/index.html",
-    "main.afb6a7fa.css.map": "/SOCO_Transparency_Dashboard/static/css/main.afb6a7fa.css.map",
-    "main.ca3e1122.js.map": "/SOCO_Transparency_Dashboard/static/js/main.ca3e1122.js.map",
-    "341.c705adca.chunk.css.map": "/SOCO_Transparency_Dashboard/static/css/341.c705adca.chunk.css.map",
-    "341.3e153803.chunk.js.map": "/SOCO_Transparency_Dashboard/static/js/341.3e153803.chunk.js.map",
-    "558.55ef0981.chunk.css.map": "/SOCO_Transparency_Dashboard/static/css/558.55ef0981.chunk.css.map",
-    "558.290bc33f.chunk.js.map": "/SOCO_Transparency_Dashboard/static/js/558.290bc33f.chunk.js.map",
-    "595.497b0b35.chunk.js.map": "/SOCO_Transparency_Dashboard/static/js/595.497b0b35.chunk.js.map",
+    "main.420012d6.css.map": "/SOCO_Transparency_Dashboard/static/css/main.420012d6.css.map",
+    "main.7d6ac7a2.js.map": "/SOCO_Transparency_Dashboard/static/js/main.7d6ac7a2.js.map",
+    "952.0b4b1ce8.chunk.js.map": "/SOCO_Transparency_Dashboard/static/js/952.0b4b1ce8.chunk.js.map",
+    "376.1edbba01.chunk.css.map": "/SOCO_Transparency_Dashboard/static/css/376.1edbba01.chunk.css.map",
+    "376.ce35e0c6.chunk.js.map": "/SOCO_Transparency_Dashboard/static/js/376.ce35e0c6.chunk.js.map",
+    "720.db0fec80.chunk.js.map": "/SOCO_Transparency_Dashboard/static/js/720.db0fec80.chunk.js.map",
+    "634.415a3ab9.chunk.js.map": "/SOCO_Transparency_Dashboard/static/js/634.415a3ab9.chunk.js.map",
+    "146.899ae51b.chunk.js.map": "/SOCO_Transparency_Dashboard/static/js/146.899ae51b.chunk.js.map",
+    "614.25bf0391.chunk.js.map": "/SOCO_Transparency_Dashboard/static/js/614.25bf0391.chunk.js.map",
     "787.7e96fd33.chunk.js.map": "/SOCO_Transparency_Dashboard/static/js/787.7e96fd33.chunk.js.map",
-    "169.cd20aa4d.chunk.js.map": "/SOCO_Transparency_Dashboard/static/js/169.cd20aa4d.chunk.js.map"
+    "286.1b3d7929.chunk.js.map": "/SOCO_Transparency_Dashboard/static/js/286.1b3d7929.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.afb6a7fa.css",
-    "static/js/main.ca3e1122.js"
+    "static/css/main.420012d6.css",
+    "static/js/main.7d6ac7a2.js"
   ]
 }
