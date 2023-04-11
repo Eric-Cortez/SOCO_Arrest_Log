@@ -1,5 +1,5 @@
 import React from "react";
-import "./ArrestCount.css"; // Import your CSS file
+import "./ArrestCount.css"; 
 
 export default function ArrestCount({ arrestData }) {
   return (

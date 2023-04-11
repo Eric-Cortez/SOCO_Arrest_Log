@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../images/banner.png";
+import image from "../../images/banner.png";
 import "./About.css";
 
 export default function About() {
