@@ -1,5 +1,5 @@
 import React from "react";
-import { valueCount } from "../../utils/helperFunctions.js";
+import { valueCount } from "../../../utils/helperFunctions.js";
 import Plot from "react-plotly.js";
 
 export default function ArrestGenderPie({ arrestData }) {

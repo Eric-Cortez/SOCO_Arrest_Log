@@ -1,6 +1,6 @@
 import React from "react";
 import Plot from "react-plotly.js";
-import { valueCount } from "../../utils/helperFunctions.js";
+import { valueCount } from "../../../utils/helperFunctions.js";
 
 export default function ArrestLocation({ arrestData }) {
   const location = valueCount(arrestData, "arrestcity");

@@ -2,12 +2,12 @@ import React from "react";
 import { useEffect, useState } from "react";
 import "./Home.css";
 
-import ArrestDegreePie from "./components/ArrestDegreePie";
-import ArrestCount from "./components/ArrestCount";
-import ArrestGenderPie from "./components/ArrestGenderPie";
-import ArrestLocation from "./components/ArrestLocation";
-import ArrestsByAgency from "./components/ArrestByAgency";
-import TopChargedescription from "./components/TopChargedescription";
+import ArrestDegreePie from "../components/ArrestDegreePie";
+import ArrestCount from "../components/ArrestCount";
+import ArrestGenderPie from "../components/ArrestGenderPie";
+import ArrestLocation from "../components/ArrestLocation";
+import ArrestsByAgency from "../components/ArrestByAgency";
+import TopChargeChart from "../components/TopChargeChart";
 
 export default function Home() {
   const [arrestData, setArrestData] = useState([]);
@@ -33,7 +33,7 @@ export default function Home() {
         <ArrestGenderPie arrestData={arrestData} />
         <ArrestsByAgency arrestData={arrestData} />
         <ArrestLocation arrestData={arrestData} />
-        <TopChargedescription arrestData={arrestData} />
+        <TopChargeChart arrestData={arrestData} />
       </div>
     </div>
   );
