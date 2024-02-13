@@ -7,26 +7,35 @@ export default function NavBar() {
   return (
     <>
       <nav className="navbar">
-        <div className="container">
-          <div className="logo-container">
-            <img id="logo" src={logo} alt="Logo" />
-            <h1 id="nav-header">SOCO Transparency Dashboard</h1>
-          </div>
-          <div className="menu">
+        <ul className="dropdown">
+          <li>
+            <a href="#" class="menu"><span class="menu-icon">&#8801;</span></a>
             <ul>
               <li>
-                <NavLink to="/" activeClassName="active-link" exact>
-                  Arrests
+                <NavLink to="/" exact>
+                  Arrest Metrics
+
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/about" activeClassName="active-link" exact>
+                <NavLink to="/about" exact>
                   About
                 </NavLink>
               </li>
             </ul>
-          </div>
+          </li>
+
+        </ul>
+
+        <div className="logo-container">
+          <img id="logo" src={logo} alt="Logo" />
+          <h1 id="nav-header">SOCO Transparency Dashboard</h1>
         </div>
+
+
+
+
+
       </nav>
     </>
   );

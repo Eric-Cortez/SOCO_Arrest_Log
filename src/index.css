@@ -12,6 +12,16 @@ code {
     monospace;
 }
 
+:root {
+    --primary-color: #1d77b4;
+    --white: whitesmoke;
+    --light-hover: #e0e0e0;
+    --lightgray: lightgray;
+    --darkgray: gray; 
+    --main-font: 'Clash Grotesk', sans-serif;
+}
+
+
 body {
   font-size: 16px;
 }
@@ -50,3 +60,4 @@ ul {
   padding: 1rem;
   background-color: #f8f8f8;
 }
+
