@@ -9,7 +9,7 @@ export default function NavBar() {
       <nav className="navbar">
         <ul className="dropdown">
           <li>
-            <a href="#" class="menu"><span class="menu-icon">&#8801;</span></a>
+            <button className="menu"><span className="menu-icon">&#8801;</span></button>
             <ul>
               <li>
                 <NavLink to="/" exact>
