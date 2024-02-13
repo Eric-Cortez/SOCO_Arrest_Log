@@ -27,14 +27,8 @@ export default function NavBar() {
 
         </ul>
 
-        <div className="logo-container">
-          <img id="logo" src={logo} alt="Logo" />
-          <h1 id="nav-header">SOCO Transparency Dashboard</h1>
-        </div>
-
-
-
-
+        <img id="logo" src={logo} alt="Logo" />
+        <h1 id="nav-header">SOCO Transparency Dashboard</h1>
 
       </nav>
     </>
