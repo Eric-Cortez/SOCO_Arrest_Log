@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/SOCO_Transparency_Dashboard/static/css/main.420012d6.css",
-    "main.js": "/SOCO_Transparency_Dashboard/static/js/main.7d6ac7a2.js",
+    "main.css": "/SOCO_Transparency_Dashboard/static/css/main.ec068073.css",
+    "main.js": "/SOCO_Transparency_Dashboard/static/js/main.801ba7eb.js",
     "static/js/952.0b4b1ce8.chunk.js": "/SOCO_Transparency_Dashboard/static/js/952.0b4b1ce8.chunk.js",
-    "static/css/376.1edbba01.chunk.css": "/SOCO_Transparency_Dashboard/static/css/376.1edbba01.chunk.css",
+    "static/css/376.2c6fb440.chunk.css": "/SOCO_Transparency_Dashboard/static/css/376.2c6fb440.chunk.css",
     "static/js/376.ce35e0c6.chunk.js": "/SOCO_Transparency_Dashboard/static/js/376.ce35e0c6.chunk.js",
     "static/js/720.db0fec80.chunk.js": "/SOCO_Transparency_Dashboard/static/js/720.db0fec80.chunk.js",
     "static/js/634.415a3ab9.chunk.js": "/SOCO_Transparency_Dashboard/static/js/634.415a3ab9.chunk.js",
@@ -13,10 +13,10 @@
     "static/js/286.1b3d7929.chunk.js": "/SOCO_Transparency_Dashboard/static/js/286.1b3d7929.chunk.js",
     "static/media/banner.png": "/SOCO_Transparency_Dashboard/static/media/banner.5849b1f86e2b3fdace37.png",
     "index.html": "/SOCO_Transparency_Dashboard/index.html",
-    "main.420012d6.css.map": "/SOCO_Transparency_Dashboard/static/css/main.420012d6.css.map",
-    "main.7d6ac7a2.js.map": "/SOCO_Transparency_Dashboard/static/js/main.7d6ac7a2.js.map",
+    "main.ec068073.css.map": "/SOCO_Transparency_Dashboard/static/css/main.ec068073.css.map",
+    "main.801ba7eb.js.map": "/SOCO_Transparency_Dashboard/static/js/main.801ba7eb.js.map",
     "952.0b4b1ce8.chunk.js.map": "/SOCO_Transparency_Dashboard/static/js/952.0b4b1ce8.chunk.js.map",
-    "376.1edbba01.chunk.css.map": "/SOCO_Transparency_Dashboard/static/css/376.1edbba01.chunk.css.map",
+    "376.2c6fb440.chunk.css.map": "/SOCO_Transparency_Dashboard/static/css/376.2c6fb440.chunk.css.map",
     "376.ce35e0c6.chunk.js.map": "/SOCO_Transparency_Dashboard/static/js/376.ce35e0c6.chunk.js.map",
     "720.db0fec80.chunk.js.map": "/SOCO_Transparency_Dashboard/static/js/720.db0fec80.chunk.js.map",
     "634.415a3ab9.chunk.js.map": "/SOCO_Transparency_Dashboard/static/js/634.415a3ab9.chunk.js.map",
@@ -26,7 +26,7 @@
     "286.1b3d7929.chunk.js.map": "/SOCO_Transparency_Dashboard/static/js/286.1b3d7929.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.420012d6.css",
-    "static/js/main.7d6ac7a2.js"
+    "static/css/main.ec068073.css",
+    "static/js/main.801ba7eb.js"
   ]
 }
