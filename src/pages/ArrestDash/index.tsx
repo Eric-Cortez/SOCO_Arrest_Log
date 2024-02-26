@@ -18,13 +18,22 @@ export default function Home() {
     "https://data.sonomacounty.ca.gov/resource/f6uf-eqmk.json";
 
   useEffect(() => {
-    getDataWithFetch();
+    getDataWithFetch(url);
   }, []);
 
-  const getDataWithFetch = async () => {
-    const response = await fetch(url);
-    const jsonData = await response.json();
-    setArrestData(jsonData);
+  const getDataWithFetch = async (url: string) => {
+    try {
+      const response = await fetch(url);
+      if (!response.ok) {
+        throw new Error("HTTP error! Status: ${response.status}");
+      }
+      const jsonData = await response.json();
+      setArrestData(jsonData);
+      
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    } catch (error: any) {
+      console.error("Error fetching data:", error.message);
+    }
   };
 
   return (

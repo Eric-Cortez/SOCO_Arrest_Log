@@ -1,5 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #1d77b4;
+  --white: whitesmoke;
+  --light-hover: #e0e0e0;
+  --lightgray: lightgray;
+  --darkgray: gray;
+  --main-font: "Clash Grotesk", sans-serif;
+}
+
 body {
   margin: 0;
+  font-size: small;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
@@ -10,24 +24,6 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
-}
-
-:root {
-    --primary-color: #1d77b4;
-    --white: whitesmoke;
-    --light-hover: #e0e0e0;
-    --lightgray: lightgray;
-    --darkgray: gray; 
-    --main-font: 'Clash Grotesk', sans-serif;
-}
-
-
-body {
-  font-size: 16px;
-}
-
-* {
-  box-sizing: border-box;
 }
 
 h1,
@@ -50,9 +46,11 @@ ul {
 
 #root {
   margin: 0;
+  padding: 0;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  width: 100%;
 }
 
 .page-content {
@@ -60,4 +58,3 @@ ul {
   padding: 1rem;
   background-color: #f8f8f8;
 }
-

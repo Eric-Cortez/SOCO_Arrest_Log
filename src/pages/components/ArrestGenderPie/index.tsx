@@ -1,10 +1,23 @@
-import React from "react";
 import { valueCount } from "../../../utils/helperFunctions.js";
 import Plot from "react-plotly.js";
+import { ArrestData } from "../../interfaces/interfaces.js";
 
-export default function ArrestGenderPie({ arrestData }) {
+interface Data {
+  type: string;
+  values: number[];
+  labels: string[];
+  text: string[];
+  textinfo: string;
+  insidetextorientation: string;
+}
+
+export default function ArrestGenderPie({
+  arrestData,
+}: {
+  arrestData: ArrestData[];
+}) {
   const genderCount = valueCount(arrestData, "gender");
-  let data = [
+  const data: Data[] = [
     {
       type: "pie",
       values: genderCount ? Object.values(genderCount) : [],
@@ -28,7 +41,7 @@ export default function ArrestGenderPie({ arrestData }) {
     <div className="pie-chart">
       {arrestData ? (
         <Plot
-          data={data}
+          data={data as Plotly.Data[]}
           style={chartStyle}
           config={{ displayModeBar: false }}
           layout={layout}
